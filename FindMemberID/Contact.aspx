@@ -5,7 +5,7 @@
     <h3>Steve Bruell.</h3>
     <address>
         PO Box 5525<br />
-        Hopkin, MN 55343<br />
+        Hopkins, MN 55343<br />
         <abbr title="Phone">P:</abbr>
         319-331-6036 (c)
     </address>
