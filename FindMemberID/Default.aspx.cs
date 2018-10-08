@@ -30,7 +30,7 @@ namespace FindMemberID
 
         public _Default()
         {
-            DB.Instance.ConnectionString = Config.ConnectionString; //ConfigurationManager.ConnectionStrings["StpcDB"].ConnectionString + "3";
+            DB.Instance.ConnectionString = Config.ConnectionString; 
 
             this.allMembers = this.memberListToDisplay = this.GetAll();
         }
