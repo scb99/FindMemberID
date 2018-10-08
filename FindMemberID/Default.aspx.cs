@@ -71,7 +71,7 @@ namespace FindMemberID
             {
                 if (member.ID == id)
                 {
-                    displayText = id + " " + member.LastName + ", " + member.FirstName;
+                    displayText = id + " R " + member.LastName + ", " + member.FirstName;
                     break;
                 }
             }
