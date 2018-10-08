@@ -49,6 +49,9 @@
     <Reference Include="StpcDB">
       <HintPath>..\..\StpcDB\bin\Debug\net462\StpcDB.dll</HintPath>
     </Reference>
+    <Reference Include="StpcDBConnection">
+      <HintPath>..\..\StpcDBConnection\StpcDBConnection\bin\Debug\StpcDBConnection.dll</HintPath>
+    </Reference>
     <Reference Include="StpcModels">
       <HintPath>..\..\StpcServices\bin\Debug\netstandard2.0\StpcModels.dll</HintPath>
     </Reference>

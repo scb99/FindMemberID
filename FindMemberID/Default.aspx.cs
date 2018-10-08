@@ -18,6 +18,7 @@ using System.Globalization;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using StpcDB;
+using StpcDBConnection;
 using StpcModels;
 
 namespace FindMemberID
@@ -29,7 +30,7 @@ namespace FindMemberID
 
         public _Default()
         {
-            DB.Instance.ConnectionString = ConfigurationManager.ConnectionStrings["StpcDB"].ConnectionString + "3";
+            DB.Instance.ConnectionString = Config.ConnectionString; //ConfigurationManager.ConnectionStrings["StpcDB"].ConnectionString + "3";
 
             this.allMembers = this.memberListToDisplay = this.GetAll();
         }
